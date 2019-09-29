@@ -1,0 +1,150 @@
+.header {
+    background: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80%;
+    min-height: 80vh;
+}
+
+.contenedor-principal{
+    background-color: brown;
+    min-height: 70vh;
+    padding: 25% 5%;
+    color: white;
+    font-family: cursive;
+    text-align: justify;
+}
+
+
+.contenedor-principal h2{
+    text-align: center;
+    border-bottom: solid white 2px;
+    margin-bottom: 10%;
+}
+
+
+.contenedor-secundario{
+    background-color: darkkhaki;
+    padding: 10% 10%;
+    min-height: 40vh;
+}
+
+.contenido-secundario{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    text-align: justify;
+}
+
+.contenido-secundario h2{
+    text-decoration: underline;
+}
+
+.contenido-secundario p{
+    padding-left: 7%;
+    padding-right: 2%; 
+}
+
+.fondo-footer {
+    background: url(../images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+    min-height: 40vh;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(78, 57, 11, 0.6);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: 40%;
+    min-height: 40vh;
+    padding-top: 23%;
+}
+
+@media (min-width: 768px){
+    a{
+        font-size: 25px;
+        font-weight: 400;
+        padding: 0 5%;
+    }
+
+    .navbar-brand{
+        font-size: 0px;
+    }
+
+    .header {
+        background: url(../images/header.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 80%;
+        min-height: 80vh;
+    }
+
+    .header .navbar {
+        background-color: transparent !important;
+    }
+
+
+    .contenedor-principal{
+        background-color: rgba(0,0,0,0.6);
+        min-height: 30vh;
+        padding: 2%;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    
+    .contenedor-principal h2{
+        text-align: left;
+        border-bottom: none;
+        margin-bottom: 15%;
+    }
+
+    .contenedor-secundario{
+        background-color: chocolate;
+        padding: 10% 5%;
+        min-height: 60vh;
+    }
+    
+    .contenido-secundario{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: justify;
+    }
+    
+    .contenido-secundario h2{
+        text-decoration: none;
+        padding-bottom: 5%;
+    }
+    
+    .contenido-secundario p{
+        padding-left: 2% ;
+        border-left: solid white 50px; 
+    }
+
+    .fondo-footer {
+        background: url(../images/footer.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 60%;
+        min-height: 60vh;
+    }
+
+    .footer{
+        font-family: cursive;
+        background-color: rgba(78, 57, 11, 0.6);
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        height: 0%;
+        min-height: 0vh;
+        padding: 3%;
+        margin-top: 15%;
+        margin-right: 60%;
+    }
+
+}
